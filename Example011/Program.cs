@@ -45,7 +45,7 @@ int IndexOf(int[] collection, int find) //в качестве аргумента
 int[] array = new int[10];
 
 FillArray(array);
-PrintArray(col);
+PrintArray(collection);
 Console.WriteLine();
 
 int pos = IndexOf(array, 4);
