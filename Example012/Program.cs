@@ -45,7 +45,7 @@ string Method4(int count, string text) //возвращение строки str
     while (i < count) //пока 
     {
         result = result + text;
-        i++; 
+        i++;
     }
     return result;
 }
@@ -59,10 +59,10 @@ string Method4(int count, string text)
 {
     string result = String.Empty;
     for (int i = 0; i < count; i++) //ключевое слово, затем счетчик, проверка условия и увеличение счетчика.
-{
-    result = result + text;
-}
-return result;
+    {
+        result = result + text;
+    }
+    return result;
 }
 
 string res = Method4(10, "asdf");
@@ -70,11 +70,11 @@ Console.WriteLine(res);
 
 //цикл в цикле
 
-for (int i = 2; i<= 10; i++)
+for(int i =2; i<=10; i++)
 {
-    for(int j = 2; j<= 10; j++)
+    for(int j = 2; j <= 10; j++)
     {
-        Console.WriteLine($"{i} x {j} = {i *j}");
+        Console.WriteLine($"{i} x {j} = {i * j}");
     }
-    Console.WriteLine(); //Вывод на новую строку
+    Console.WriteLine();
 }
